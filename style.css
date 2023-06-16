@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    display: flex;
+    background-image: url(/img/e331d5f2da8838fc0b19186fa0d73c20.gif);
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 10px;
+    border-radius: 10px;
+    animation: border-bg 5s infinite;
+    border: 5px solid rgb(252, 230, 230);
+}
+
+.login-form h2{
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    padding: 3px 0px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.login-form input[type="submit"]{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(248, 223, 191);
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover{
+    background-image: linear-gradient(to right, pink, rgb(61, 61, 61));
+}
+
+.login-image img{
+    width:200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sign-up-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes border-bg {
+    0%{
+        border-color: burlywood;
+    }
+    10%{
+        border-color: rgb(211, 252, 168);        
+    }
+    20%{
+        border-color: rgb(196, 239, 255);        
+    }
+    30%{
+        border-color: rgb(173, 171, 255);        
+    }
+    40%{
+        border-color: rgb(169, 252, 255);        
+    }
+    50%{
+        border-color: rgb(140, 134, 255);        
+    }
+    60%{
+        border-color: rgb(228, 147, 255);        
+    }
+    70%{
+        border-color: rgb(248, 189, 255);        
+    }
+    80%{
+        border-color: rgb(255, 147, 192);        
+    }
+    90%{
+        border-color: rgb(122, 0, 43);        
+    }
+    100%{
+        border-color: rgb(255, 148, 153);        
+    }
+}
